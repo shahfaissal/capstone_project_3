@@ -7,26 +7,51 @@ The Airline passenger Referral system has become the most important criteria glo
 # Problem Statement:
 Data includes airline reviews from 2006 to 2019 for popular airlines around the world with multiple choice and free text questions. Data is scraped in Spring 2019. The main objective is to predict whether passengers will refer the airline to their friends.
 # Data descriptions:
-airline: Name of the airline.
+# 1.airline: Name of the airline.
 
-overall: Overall point is given to the trip between 1 to 10.
+2.overall: Overall point is given to the trip between 1 to 10.
 
-author: Author of the trip
+3.author: Author of the trip
 
-reviewdate: Date of the Review customer review: Review of the customers in free text format
+4.reviewdate: Date of the Review customer review: Review of the customers in free text format
 
-aircraft: Type of the aircraft
+5.aircraft: Type of the aircraft
 
-travellertype: Type of traveler (e.g. business, leisure)
+6.travellertype: Type of traveler (e.g. business, leisure)
 
-cabin: Cabin at the flight date flown: Flight date
+7.cabin: Cabin at the flight date flown: Flight date
 
-seatcomfort: Rated between 1-5
+8.seatcomfort: Rated between 1-5
 
-cabin service: Rated between 1-5
+9.cabin service: Rated between 1-5
 
-foodbev: Rated between 1-5 entertainment: Rated between 1-5
+10.foodbev: Rated between 1-5 entertainment: Rated between 1-5
 
-groundservice: Rated between 1-5
+11.groundservice: Rated between 1-5
 
-valueformoney: Rated between 1-5
+12.valueformoney: Rated between 1-5
+
+# Feature descriptions briefly as follows:
+airline: Name of the airline in str fromat
+
+overall: Overall point is given to the trip between 1 to 10 in float format.
+
+author: Author of the trip in str format
+
+reviewdate: Date of the Review customer review: Review of the customers in free text format in str need to be converted into DateTime Format
+
+aircraft: Type of the aircraft in str format
+
+travellertype: Type of traveler (e.g. business, leisure) consist of four class in str format
+
+cabin: Cabin at the flight date flown: Flight date in str format consist of 4 class.
+
+seatcomfort: Rated between 1-5 in float format
+
+cabin service: Rated between 1-5 float format
+
+foodbev: Rated between 1-5 entertainment: Rated between 1-5 in float format
+
+groundservice: Rated between 1-5 in float format
+
+valueformoney: Rated between 1-5 in float format
