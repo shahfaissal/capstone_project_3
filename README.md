@@ -72,6 +72,27 @@ We can conclude following things from above:
 * In Shap JS summary we can see positive features overall, value for money,numeric_review combined red color block pushes the prediction toward right over base value and causing positive model prediction and it is common for all model.
 * In Shap summary scatter plot we can see in scatter plot high overall,value for money,numeric_review,cabin service,ground_service positive features and low airline_British_airways is increasing positive prediction and it is common for all models. Also we can see that overall,value for money,numeric_review,cabin service,ground_service has high shap feature value.
 
+# 📋 Execution Instruction:
+The order of execution of the program files is as follows:
+
+1) Airline referral capstone project.py
+
+First, the Airline referral capstone project.py file must be executed to define all the functions and variables required for classification operations.
+
+2) train.py
+
+Then, the train.py file must be executed, which leads to the production of the model.txt file. At the beginning of this file, the Airline referral capstone project has been imported so that the functions defined in it can be used.
+
+3) test.py
+
+Finally, the test.py file must be executed to create the result.txt and evaluation.txt files. Just like the train.py file, at the beginning of this file, the Airline referral capstone project has been imported so that the functions defined in it can be used.
+
+# 📜 Credits
+<Shahfaissal I Dharwad> | Avid Learner | Data Scientist | Machine Learning Engineer | Deep Learning enthusiast
+
+Contact me for Data Science Project Collaborations
+
+
 # References
 1.Analytics vidhya
 
